@@ -19,7 +19,7 @@ def mostrar_menu():
 
 def executar_calculo():
     mostrar_menu()
-    opcao = input("Escolha a operação (1-9): ")
+    opcao = input("Escolha a operação (1-10): ")
 
     if opcao == '1':
         num1 = float(input("Digite o primeiro número: "))
