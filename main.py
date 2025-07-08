@@ -1,5 +1,5 @@
 from operacoes import somar, subtrair, multiplicar, dividir, raiz_quadrada, porcentagem, potencia, modulo
-from historico import salvar_historico, mostrar_historico
+from historico import salvar_historico, mostrar_historico, limpar_historico
 
 
 def mostrar_menu():
@@ -14,7 +14,7 @@ def mostrar_menu():
     print("7 - Potência")
     print("8 - Módulo (resto da divisão)")
     print("9 - Ver histórico")
-
+    print("10 - Limpar histórico")
 
 
 def executar_calculo():
@@ -79,6 +79,10 @@ def executar_calculo():
     elif opcao == '9':
         print("Histórico:")
         print(mostrar_historico())
+
+    elif opcao == '10':
+        limpar_historico()
+        print("Histórico apagado com sucesso.")
 
     else:
         print("Opção inválida.")
