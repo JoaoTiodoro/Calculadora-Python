@@ -1,70 +1,80 @@
-# 🧮 Calculadora em Python
+# Calculadora Completa em Python 🧮
 
-Calculadora simples, desenvolvida com estrutura de código organizada.  
-O objetivo é praticar lógica de programação, modularização e boas práticas com Python, separando a lógica das operações do código principal.
+Projeto de calculadora desenvolvida para demonstrar habilidades em lógica de programação, organização de código, modularização, interface gráfica (GUI com Tkinter) e uso de GitHub. O projeto possui versão em terminal (CLI) e interface visual moderna.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- ✅ Soma  
-- ✅ Subtração  
-- ✅ Multiplicação  
-- ✅ Divisão (com tratamento de divisão por zero)
+### ✅ Versão Terminal (main.py)
+- Soma
+- Subtração
+- Multiplicação
+- Divisão
+- Raiz quadrada
+- Porcentagem
+- Potência
+- Módulo
+- Histórico de operações
+- Limpar histórico
+
+### 🖼️ Versão Gráfica (calculadora_tkinter.py)
+- Interface com Tkinter
+- Mesmas operações acima com botões
+- Campos explicativos para o 1º e 2º número
+- Resultado exibido dinamicamente
+- Visual clean e moderno
 
 ---
 
-## 🗂 Estrutura do Projeto
+## 💻 Tecnologias Utilizadas
 
-> Calculadora-Python/  
-> ├── main.py         # Arquivo principal: interação com o usuário  
-> ├── operacoes.py    # Funções matemáticas separadas  
-> └── README.md       # Documentação do projeto
-
----
-
-## 🧠 Conceitos aplicados
-
-- Lógica de programação  
-- Funções reutilizáveis  
-- Tratamento de erro com try/except  
-- Estrutura modular (código limpo e separado por responsabilidade)  
-- Boas práticas com if __name__ == "__main__"
+- Python 3.x
+- Tkinter (GUI)
+- Programação modular
+- Git e GitHub
 
 ---
 
-## 💻 Como executar o projeto
+## ▶️ Como Executar
 
-1. Clone o repositório:
-
+### 📦 Clonar o repositório:
 ```bash
-git clone https://github.com/JoaoTiodoro/Calculadora-Python.git
+git clone https://github.com/JoaoTiodoro/Calculadora-Python
 cd Calculadora-Python
 ```
 
-2. Execute o programa com Python:
-
+### 🧪 Rodar no terminal (modo texto):
 ```bash
 python main.py
 ```
 
----
-
-## 👨‍💻 Autor
-
-Desenvolvido por **João Tiodoro**  
-📍 Estudante focado em backend, banco de dados e cibersegurança  
-🔗 [github.com/JoaoTiodoro](https://github.com/JoaoTiodoro)
+### 🖥️ Rodar com interface gráfica:
+```bash
+python calculadora_tkinter.py
+```
 
 ---
 
-## 📌 Próximos passos
+## 🧠 Organização dos Arquivos
 
-- [ ] Adicionar raiz quadrada e porcentagem  
-- [ ] Criar interface gráfica com Tkinter  
-- [ ] Salvar histórico de cálculos  
-- [ ] Criar versão web com Flask ou PHP
+- `main.py` → Menu principal via terminal
+- `operacoes.py` → Todas as funções matemáticas
+- `historico.py` → Registro de operações e histórico
+- `calculadora_tkinter.py` → Versão com interface gráfica
+- `historico.txt` → Histórico salvo automaticamente
 
 ---
 
-> Projeto criado do zero com foco em aprendizado real
+## 👤 Autor
+
+**João Tiodoro**  
+[GitHub](https://github.com/JoaoTiodoro)
+
+---
+
+## 📌 Observações
+
+- O projeto está organizado para facilitar manutenção, aprendizado e evolução.
+- Ideal para portfólio de quem quer mostrar domínio em lógica e Python com interface visual.
+
